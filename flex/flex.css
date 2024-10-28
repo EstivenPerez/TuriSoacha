@@ -1,0 +1,83 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* container de flex directio */
+
+.flexdirection{
+    margin: 20px 0;
+    display: flex;
+    width: 50%;
+    height: 500px;
+    border: 2px groove black;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+}
+
+.flex_caja{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.flex_caja1{
+    border: 2px solid rgb(247, 0, 255) 
+}
+.flex_caja2{
+    border: 2px solid rgb(250, 1, 1);
+    width: 15%;
+}
+.flex_caja3{
+    border: 2px solid rgb(253, 236, 1);
+    width: 30%;
+}
+.flex_caja4{
+    border: 2px solid rgb(2, 238, 61);
+    width: 50%; 
+}
+.flex_caja5{
+    border: 2px solid rgb(29, 4, 253); 
+    width: 80%;
+}
+
+/* container de flexwrap */
+
+.flexwrap{
+    margin: 20px 0;
+    display: flex;
+    /* width: 50%; */
+    width: 500px;
+    height: 500px;
+    border: 2px groove black;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.flex_wrap{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+.flex_wrap1{
+    border: 2px solid blue;
+    width: 120px;
+}
+.flex_wrap2{
+    border: 2px solid greenyellow;
+}
+.flex_wrap3{
+    border: 2px solid yellow;
+}
+.flex_wrap4{
+    border: 2px solid red;
+}
+.flex_wrap5{
+    border: 2px solid rgb(252, 19, 221); 
+}
